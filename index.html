@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyHub · Home</title>
+  <!-- one CSS for all pages -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">📚 StudyHub</div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- mobile toggle (JS) + dark mode toggle -->
+    <div class="nav-tools">
+      <button id="menuToggle" aria-label="Menu">☰</button>
+      <button id="themeToggle" aria-label="Dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to StudyHub</h1>
+      <p>Your friendly guide to smarter studying. Explore tips, resources, and connect with us.</p>
+      <img src="https://placehold.co/600x200/4A90E2/white?text=Study+Smart+%26+Stay+Curious" alt="StudyHub banner" class="banner-img">
+    </section>
+
+    <section class="features">
+      <div class="card">
+        <h2>🎯 Study Tips</h2>
+        <p>Learn effective techniques to boost your focus and memory.</p>
+        <a href="resources.html" class="btn">Explore</a>
+      </div>
+      <div class="card">
+        <h2>📖 Subject Guides</h2>
+        <p>Curated resources for math, science, languages, and more.</p>
+        <a href="resources.html" class="btn">View</a>
+      </div>
+      <div class="card">
+        <h2>💬 Get in Touch</h2>
+        <p>Have questions? Reach out through our contact page.</p>
+        <a href="contact.html" class="btn">Contact</a>
+      </div>
+    </section>
+
+    <!-- JS interactive demo: show/hide extra message -->
+    <div class="interactive-box">
+      <button id="showMsgBtn" class="btn">📢 Show study mantra</button>
+      <p id="extraMessage" class="hidden-message">✨ "Start before you feel ready." — StudyHub mantra</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 StudyHub — built with ❤️ for students</p>
+  </footer>
+
+  <!-- single script for all pages -->
+  <script src="script.js"></script>
+</body>
+</html>

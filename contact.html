@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyHub · Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">📚 StudyHub</div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-tools">
+      <button id="menuToggle" aria-label="Menu">☰</button>
+      <button id="themeToggle" aria-label="Dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <h1>📬 About & Contact</h1>
+    <div class="contact-wrapper">
+      <section class="about">
+        <h2>About StudyHub</h2>
+        <p>StudyHub was created for students, by students. We believe that learning should be accessible, enjoyable, and effective. Our mission is to share study tips, curated resources, and a supportive community.</p>
+        <p>📍 Based on campus · online always.</p>
+        <img src="https://placehold.co/400x120/3b8c5a/white?text=Learn+Together" alt="About StudyHub" style="max-width:100%; border-radius:12px; margin-top:0.5rem;">
+      </section>
+
+      <section class="contact-form-section">
+        <h2>✉️ Say hello</h2>
+        <form id="contactForm">
+          <label for="name">Your name</label>
+          <input type="text" id="name" placeholder="e.g. Ayesha Khan" required>
+
+          <label for="email">Email address</label>
+          <input type="email" id="email" placeholder="ayesha@example.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Your question or feedback..." required></textarea>
+
+          <button type="submit" class="btn">Send message</button>
+          <p id="formFeedback" class="feedback-message"></p>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 StudyHub — we’d love to hear from you.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

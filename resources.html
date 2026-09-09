@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyHub · Resources</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">📚 StudyHub</div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resources.html" class="active">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-tools">
+      <button id="menuToggle" aria-label="Menu">☰</button>
+      <button id="themeToggle" aria-label="Dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <h1>📘 Study Resources & Guides</h1>
+    <p class="subhead">Hand-picked tools and strategies to level up your learning.</p>
+
+    <section class="resource-grid">
+      <article class="resource-card">
+        <h3>🧠 Active recall</h3>
+        <p>Test yourself instead of re-reading. Use flashcards or practice questions.</p>
+        <ul>
+          <li>📌 Anki / Quizlet</li>
+          <li>📌 Past papers</li>
+          <li>📌 Teach someone else</li>
+        </ul>
+      </article>
+      <article class="resource-card">
+        <h3>⏳ Pomodoro technique</h3>
+        <p>25 min focus, 5 min break. Stay fresh and productive.</p>
+        <ul>
+          <li>⏲️ TomatoTimer</li>
+          <li>📱 Focus apps</li>
+          <li>🎧 lo-fi beats</li>
+        </ul>
+      </article>
+      <article class="resource-card">
+        <h3>📚 Subject hubs</h3>
+        <p>Free resources for STEM, humanities, and languages.</p>
+        <ul>
+          <li>🔬 Khan Academy</li>
+          <li>📖 Project Gutenberg</li>
+          <li>🌍 Duolingo / Memrise</li>
+        </ul>
+      </article>
+      <article class="resource-card">
+        <h3>✍️ Note-taking</h3>
+        <p>Digital or analog — find your flow.</p>
+        <ul>
+          <li>📝 Cornell method</li>
+          <li>💻 Notion / Obsidian</li>
+          <li>🖊️ Mind maps</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- extra interactive: show/hide study tips list -->
+    <div class="interactive-box">
+      <button id="toggleTipsBtn" class="btn">💡 Show extra tips</button>
+      <div id="extraTips" class="hidden-message">
+        <ul>
+          <li>🎯 Set daily micro-goals.</li>
+          <li>📅 Review notes within 24 hours.</li>
+          <li>🧘 Take short walks to recharge.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 StudyHub — resources to help you grow.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
